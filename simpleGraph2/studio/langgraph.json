@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "simpleGraph": "./simpleGraph2.py:graph"
+    },
+    "env": "../../.env"
+  }

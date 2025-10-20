@@ -9,7 +9,7 @@ Requires-Dist: langchain>=0.3.0
 Requires-Dist: langchain-openai>=0.2.0
 Requires-Dist: langchain-anthropic>=0.3.0
 Requires-Dist: langchain_community>=0.3.27
-Requires-Dist: langchain_tavily>=0.2.7
+Requires-Dist: langchain-tavily>=0.2.7
 Requires-Dist: langchain_mcp_adapters>=0.1.9
 Requires-Dist: pydantic>=2.0.0
 Requires-Dist: rich>=14.0.0
@@ -22,3 +22,27 @@ Requires-Dist: langgraph-cli[inmem]>=0.4.4
 Provides-Extra: dev
 Requires-Dist: mypy>=1.11.1; extra == "dev"
 Requires-Dist: ruff>=0.6.1; extra == "dev"
+
+# A simple graph
+- one node
+- simple conversation
+- persistent memory
+- `%%writefile` magic used to avoid separate code typing in notebook and for studio
+
+[simpleGraph\nb01.ipynb]
+
+
+# Exercise: Add a summarizer node
+
+Graphs requirements:
+- simple chatbot
+- create a summarizer node
+- After each turn of conversation, the summarizer node should summarize the converstation.
+
+[simpleGraph2\nb01.ipynb]
+
+
+# Exercise: Create an agent with a web search tool
+
+
+# Exercise: Build something with Google Scholar tool
