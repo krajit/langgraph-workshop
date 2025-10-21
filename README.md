@@ -22,6 +22,8 @@ Graphs requirements:
 [webSearchAgent\nb01.ipynb]
 
 
-# TODO: Create a langgraph development workflow, where it is easy to develop and debug each node independently and join them together as one big agent.
+# Exercise : Create a langgraph development workflow, where it is easy to develop and debug each node independently and join them together as one big agent.
+
+ [langgraphDevelopmentFlow\README.md]
 
 # Exercise: Build something with Google Scholar tool
