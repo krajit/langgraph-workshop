@@ -26,4 +26,19 @@ Graphs requirements:
 
  [langgraphDevelopmentFlow\README.md]
 
+
+
+# [DONE] Create ReACT Agent
+
+
+[https://langchain-ai.github.io/langgraph/concepts/why-langgraph/#learn-langgraph-basics]
+
+
+# [TODO] Experiment React agent with MCP agents
+
+
 # Exercise: Build something with Google Scholar tool
+
+# Deep Agents
+
+https://github.com/langchain-ai/deepagents

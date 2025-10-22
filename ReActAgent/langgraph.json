@@ -1,0 +1,8 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "basic_chatbot": "./basic_chatbot.py:graph",
+      "react_chatbot": "./react_agent01.py:graph"
+    },
+    "env": "../.env"
+  }
