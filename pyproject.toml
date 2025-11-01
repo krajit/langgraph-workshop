@@ -20,6 +20,7 @@ dependencies = [
     "langgraph-sdk>=0.2.9",
     "langchain-core>=0.3.79",
     "langgraph-cli[inmem]>=0.4.4",
+    "langchain-groq>=1.0.0",
 ]
 
 [project.optional-dependencies]

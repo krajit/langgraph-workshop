@@ -19,6 +19,7 @@ Requires-Dist: tavily-python>=0.5.0
 Requires-Dist: langgraph-sdk>=0.2.9
 Requires-Dist: langchain-core>=0.3.79
 Requires-Dist: langgraph-cli[inmem]>=0.4.4
+Requires-Dist: langchain-groq>=1.0.0
 Provides-Extra: dev
 Requires-Dist: mypy>=1.11.1; extra == "dev"
 Requires-Dist: ruff>=0.6.1; extra == "dev"
@@ -44,5 +45,26 @@ Graphs requirements:
 
 # Exercise: Create an agent with a web search tool
 
+[webSearchAgent\nb01.ipynb]
+
+
+# Exercise : Create a langgraph development workflow, where it is easy to develop and debug each node independently and join them together as one big agent.
+
+ [langgraphDevelopmentFlow\README.md]
+
+
+
+# [DONE] Create ReACT Agent
+
+
+[https://langchain-ai.github.io/langgraph/concepts/why-langgraph/#learn-langgraph-basics]
+
+
+# [TODO] Experiment React agent with MCP agents
+
 
 # Exercise: Build something with Google Scholar tool
+
+# Deep Agents
+
+https://github.com/langchain-ai/deepagents
