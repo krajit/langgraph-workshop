@@ -49,13 +49,17 @@ def web_search(query: str) -> str:
         response_combined += result["title"] + "\n" + result["url"] + "\n" + result["content"] + "\n\n"
     return response_combined
 
-tools = [add, multiply, divide,web_search]
+tools = [add, multiply, divide, web_search]
 
 from langgraph.graph import MessagesState
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from prompts import research_agent_prompt as sys_msg_template
+from utility import get_today_str
+
 # System message
-sys_msg = SystemMessage(content="You are a helpful assistant. You have acces to web search tool and some arithmetic tool. Feel free to use these tools if you can not answer the question directly.")
+#sys_msg = SystemMessage(content="You are a helpful assistant. You have acces to web search tool and some arithmetic tool. Feel free to use these tools if you can not answer the question directly.")
+sys_msg = SystemMessage(content= sys_msg_template.format(date=get_today_str()))
 
 # Node
 def assistant(state: MessagesState):
